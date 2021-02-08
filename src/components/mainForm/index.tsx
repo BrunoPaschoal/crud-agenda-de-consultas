@@ -1,6 +1,6 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import StyledButton from '../genericButton/index';
 import './style.scss'
 
 const MainForm: React.FC = () => {
@@ -16,8 +16,7 @@ const MainForm: React.FC = () => {
                         label="Nome"
                         placeholder="Digite o nome do profissional de saúde"
                         multiline
-                    />
-                    
+                    />                    
                     <TextField
                         fullWidth
                         id="outlined-textarea"
@@ -26,7 +25,7 @@ const MainForm: React.FC = () => {
                         placeholder="Digite a especialidade"
                         multiline
                     />
-
+                    
                     <TextField                                        
                         fullWidth
                         id="outlined-multiline-static"
@@ -35,12 +34,11 @@ const MainForm: React.FC = () => {
                         variant="outlined"
                         multiline
                     />
-
                 </div>
 
-                <div className='buttons-container'>
-                    <Button variant="contained" color="secondary">Cancelar</Button>
-                    <Button variant="contained" color="primary">Salvar</Button>
+                <div className='buttons-container'>                    
+                    <StyledButton title='Cancelar' color='#ff4a4b' colorHover='#DD3435'/>
+                    <StyledButton title='Salvar' color='#34c1b9' colorHover='#39A7A1'/>                         
                 </div>
             </div>    
         </div>

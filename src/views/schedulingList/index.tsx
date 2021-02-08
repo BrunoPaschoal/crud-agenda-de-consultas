@@ -1,10 +1,11 @@
 import React from 'react';
-import './style.scss'
+import './style.scss';
+import CardList from '../../components/cardsList'
 
 const schedulingList: React.FC = () => {
     return(
-        <div>
-            Listagem de cadastros      
+        <div className='container-scheduling-list'>
+            <CardList/>              
         </div>
     )
 }

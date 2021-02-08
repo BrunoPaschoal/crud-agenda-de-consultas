@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.scss';
-import MainForm from './components/mainForm';
 import {ThemeProvider, createMuiTheme} from '@material-ui/core';
+import AppRoutes from './routes/app.routes'
+
 
 function App() {
   const theme = createMuiTheme({
@@ -13,13 +13,13 @@ function App() {
         main: '#ff4a4b',
       }
     }
-  })  
+  })
 
 
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <MainForm/>
+        <AppRoutes/>
       </ThemeProvider>
     </div>
   );
