@@ -10,7 +10,7 @@ const schedulingList: React.FC = () => {
                 <div className="cards-container">
                     <Card/>
                     <Card/>
-                    <Card/>                                                        
+                                                                         
                 </div>
             </div>
               

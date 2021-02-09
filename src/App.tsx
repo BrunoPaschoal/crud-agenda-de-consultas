@@ -1,6 +1,7 @@
 import React from 'react';
 import {ThemeProvider, createMuiTheme} from '@material-ui/core';
 import AppRoutes from './routes/app.routes'
+import NavBar from './components/navBar';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
+        <NavBar/>
         <AppRoutes/>
       </ThemeProvider>
     </div>
