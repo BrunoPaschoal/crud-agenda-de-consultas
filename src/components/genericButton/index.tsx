@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss';
-import {withStyles} from '@material-ui/core'
+import {withStyles} from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 
 interface ICustomButtonProps {

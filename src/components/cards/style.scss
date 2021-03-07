@@ -13,12 +13,28 @@
         align-items: flex-start;
 
         .info-header-container{
-            margin-right: 15px;
-            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;               
 
             h3{
                 color: $primaryColor;
-            }
+            }           
+        }
+
+        .name{
+            width: 80px;
+        }
+
+        .specialty{
+            width: 105px;
+        }
+
+        .begin{
+            width: 80px;
+        }
+
+        .end{
+            width: 80px;
         }
     }
 
@@ -33,10 +49,4 @@
         display: flex;
         justify-content: flex-end;
     }
-
-    
-
-
-
-
 }

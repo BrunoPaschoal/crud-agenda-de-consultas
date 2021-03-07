@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.scss';
 import HeartLogo from '../../assets/heart.svg'
+import {Link} from 'react-router-dom'
 
 
 const NavBar: React.FC = () => {
@@ -12,10 +13,10 @@ const NavBar: React.FC = () => {
             <div className='navba-menu'>
                 <ul>
                     <li>
-                        <a href="/">CADASTRAR</a>
+                        <Link to="/">CADASTRAR</Link>
                     </li>
                     <li>
-                        <a href="/list">CONSULTAS</a>
+                        <Link to="/list">CONSULTAS</Link>
                     </li>
                 </ul>
 
